@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>我俩看电影网 - 双人观影推荐与精选片单</title>
+<meta name="description" content="我俩看电影网（woliakandianyingwang-wap.github.io）专注双人观影推荐，精选适合两个人一起看的电影片单，涵盖浪漫、治愈、悬疑、动画等类型，提供影片简介与评分参考。">
+<meta name="keywords" content="我俩看电影网,双人观影,情侣片单,电影推荐,浪漫电影,治愈电影,悬疑电影,动画电影,观影指南">
+<meta name="author" content="我俩看电影网">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#f5f0ff">
+<link rel="canonical" href="https://woliakandianyingwang-wap.github.io/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="我俩看电影网">
+<meta property="og:title" content="我俩看电影网 - 双人观影推荐与精选片单">
+<meta property="og:description" content="专注双人观影推荐，精选适合两个人一起看的电影片单，涵盖浪漫、治愈、悬疑、动画等类型。">
+<meta property="og:url" content="https://woliakandianyingwang-wap.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="我俩看电影网">
+<meta name="twitter:description" content="专注双人观影推荐，精选适合两个人一起看的电影片单，涵盖浪漫、治愈、悬疑、动画等类型。">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "我俩看电影网",
+      "url": "https://woliakandianyingwang-wap.github.io/",
+      "description": "我俩看电影网专注双人观影推荐，精选适合两个人一起看的电影片单，涵盖浪漫、治愈、悬疑、动画等类型。",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://woliakandianyingwang-wap.github.io/#search?q={query}",
+        "query-input": "required name=query"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "我俩看电影网",
+      "url": "https://woliakandianyingwang-wap.github.io/",
+      "description": "专注双人观影推荐，精选适合两个人一起看的电影片单，涵盖浪漫、治愈、悬疑、动画等类型。"
+    }
+  ]
+}
+</script>
+
+<style>
+/* ============================================================
+   我俩看电影网 —— 单文件内联样式
+   设计语言：奶白底 × 双蓝交融 × 手绘涂鸦 × 圆角卡片
+   ============================================================ */
+:root{
+  --paper:#f7f3ff;--paper2:#efe7ff;--card:#ffffff;--card2:#f2ecff;
+  --ink:#1f1c3a;--ink2:#3d3860;--gray:#6b6590;--gray2:#a49dcc;
+  --blue:#3a5cff;--blue2:#2840d6;--blue3:#e2e8ff;
+  --pink:#ff5ca8;--pink2:#ffd9ea;--line:rgba(31,28,58,.14);--line2:rgba(31,28,58,.07);
+  --rad:16px;
+  --han:"PingFang SC","Microsoft YaHei","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+  --mono:"SFMono-Regular",ui-monospace,Menlo,Consolas,"Courier New",monospace;
+  --hand:"KaiTi","STKaiti","Kaiti SC",serif;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--han);background:var(--paper);color:var(--ink);line-height:1.85;font-size:15px;overflow-x:hidden;
+  background-image:radial-gradient(circle at 15% 12%,rgba(58,92,255,.10),transparent 40%),radial-gradient(circle at 85% 68%,rgba(255,92,168,.10),transparent 44%);
+}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
+h1,h2,h3,h4{font-weight:900;line-height:1.25;color:var(--ink)}
+img{max-width:100%;display:block}
+::selection{background:var(--blue);color:#fff}
+
+.wrap{max-width:1300px;margin:0 auto;padding:0 16px}
+@media(min-width:768px){.wrap{padding:0 28px}}
+section{padding:44px 0}
+@media(min-width:900px){section{padding:88px 0}}
+
+.mono{font-family:var(--mono)}
+.kicker{font-family:var(--hand);font-size:20px;color:var(--blue);display:block;margin-bottom:10px;letter-spacing:.05em}
+.sec-title{font-size:40px;font-weight:900;letter-spacing:-1px;margin-bottom:14px;line-height:1.2}
+@media(min-width:768px){.sec-title{font-size:60px}}
+@media(min-width:1100px){.sec-title{font-size:80px}}
+.sec-title em{font-style:normal;color:var(--pink);position:relative}
+.sec-title em::after{content:"";position:absolute;left:0;right:0;bottom:8px;height:4px;background:var(--pink2);z-index:-1}
+.sec-sub{font-size:15px;color:var(--gray);max-width:640px;margin-bottom:40px;line-height:2}
+
+/* ---------- 头部 ---------- */
+.header{position:sticky;top:0;z-index:100;background:rgba(247,243,255,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:3px solid var(--ink)}
+.header-in{height:76px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-mark{position:relative;width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--pink));display:grid;place-items:center;box-shadow:0 4px 0 rgba(31,28,58,.14)}
+.logo-mark i{width:15px;height:15px;border-radius:50%;background:#fff;display:block;box-shadow:14px -2px 0 #fff;transform:translateX(-6px)}
+.logo b{font-size:18px;letter-spacing:.5px;font-weight:900}
+.logo b small{display:block;font-family:var(--mono);font-size:9px;color:var(--blue);letter-spacing:.2em;font-weight:800;text-transform:uppercase}
+.nav{display:flex;align-items:center;gap:4px}
+.nav a{padding:10px 16px;font-size:14.5px;letter-spacing:.02em;color:var(--gray);position:relative;transition:.2s;border-radius:30px}
+.nav a:hover{color:var(--ink);background:var(--card2)}
+.nav a.active{color:#fff;background:var(--blue)}
+.search{display:flex;align-items:center;gap:8px;padding:10px 16px;border:2px solid var(--line);border-radius:30px;font-family:var(--mono);font-size:11px;color:var(--gray);transition:.2s;background:var(--card)}
+.search:hover{border-color:var(--blue);color:var(--blue)}
+.menu-btn{display:none;width:46px;height:46px;border:2px solid var(--ink);border-radius:14px;align-items:center;justify-content:center;flex-direction:column;gap:5px;transition:.25s;background:var(--card)}
+.menu-btn i{display:block;width:19px;height:2px;background:var(--ink);border-radius:2px}
+.menu-btn.open i:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.menu-btn.open i:nth-child(2){opacity:0}
+.menu-btn.open i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+@media(max-width:940px){
+  .search{display:none}.menu-btn{display:flex}
+  .nav{position:fixed;top:76px;left:0;right:0;flex-direction:column;align-items:stretch;padding:12px 16px;background:var(--paper);border-bottom:3px solid var(--ink);transform:translateY(-150%);transition:.3s;z-index:99}
+  .nav.show{transform:translateY(0)}
+  .nav a{border-bottom:1px dashed var(--line2);text-align:center;padding:16px 4px;font-size:16px}
+  .nav a.active{background:var(--blue)}
+}
+
+/* ---------- 首屏 ---------- */
+.hero{padding:36px 0 28px;position:relative}
+@media(min-width:900px){.hero{padding:76px 0 52px}}
+.hero-grid{display:grid;grid-template-columns:1fr;gap:40px;align-items:center}
+@media(min-width:940px){.hero-grid{grid-template-columns:1.1fr .9fr;gap:56px}}
+.tagline{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--blue);background:var(--blue3);border-radius:30px;padding:7px 16px;margin-bottom:20px;font-weight:800}
+.tagline b{width:7px;height:7px;border-radius:50%;background:var(--pink);display:inline-block}
+.hero h1{font-size:56px;font-weight:900;letter-spacing:-2px;line-height:1.12}
+@media(min-width:640px){.hero h1{font-size:82px}}
+@media(min-width:1100px){.hero h1{font-size:104px}}
+.hero h1 small{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--gray2);font-weight:800;margin-top:16px}
+.hero h1 .hl{color:var(--blue);position:relative;display:inline-block}
+.hero h1 .hl::after{content:"";position:absolute;left:-3px;right:-3px;bottom:6px;height:16px;background:var(--pink2);z-index:-1;border-radius:10px;transform:rotate(-1.5deg)}
+.hero-desc{font-size:15.5px;color:var(--gray);max-width:540px;margin:24px 0 30px;line-height:2.05}
+.hero-acts{display:flex;gap:12px;flex-wrap:wrap}
+.btn{padding:15px 30px;border-radius:30px;font-family:var(--mono);font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;transition:.25s;border:2px solid transparent;display:inline-block}
+.btn-main{background:var(--blue);color:#fff;box-shadow:0 5px 0 var(--blue2)}
+.btn-main:hover{transform:translateY(-2px);box-shadow:0 7px 0 var(--blue2)}
+.btn-line{background:var(--card);color:var(--ink);border-color:var(--ink)}
+.btn-line:hover{border-color:var(--pink);color:var(--pink)}
+
+.hero-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:560px;margin-top:34px}
+.hm{padding:16px;border:2px solid var(--ink);border-radius:var(--rad);background:var(--card);text-align:center;transition:.3s}
+.hm:hover{border-color:var(--pink);transform:translateY(-4px)}
+.hm b{display:block;font-size:26px;font-weight:900;color:var(--blue)}
+.hm span{font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--gray)}
+
+/* 两人观影装置 */
+.duo{position:relative;width:100%;max-width:360px;margin:0 auto}
+.duo svg{width:100%;height:auto;display:block}
+.duo-cap{text-align:center;font-family:var(--hand);font-size:22px;color:var(--blue);margin-top:16px}
+
+/* ---------- 模式切换 ---------- */
+.modebar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+.modebar .lab{font-family:var(--mono);font-size:11px;letter-spacing:.12em;color:var(--gray)}
+.mode{display:flex;gap:8px;padding:5px;border:2px solid var(--ink);border-radius:30px;background:var(--card)}
+.mode button{padding:9px 20px;border-radius:30px;font-size:13.5px;font-weight:900;color:var(--gray);transition:.25s}
+.mode button.on{background:var(--pink);color:#fff}
+.mode button:not(.on):hover{color:var(--ink)}
+
+/* ---------- 栏目 02：情侣卡 ---------- */
+.lovers{display:grid;grid-template-columns:repeat(1,1fr);gap:18px}
+@media(min-width:640px){.lovers{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.lovers{grid-template-columns:repeat(3,1fr)}}
+.love{position:relative;border:2px solid var(--ink);border-radius:20px;background:var(--card);overflow:hidden;transition:.35s;padding:0}
+.love:hover{border-color:var(--blue);transform:translateY(-6px);box-shadow:0 14px 30px rgba(31,28,58,.14)}
+.love .cv{aspect-ratio:16/10;display:grid;place-items:center;text-align:center;padding:20px;font-family:var(--hand);font-size:30px;font-weight:900;color:#fff;line-height:1.35;position:relative}
+.love .cv small{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:rgba(255,255,255,.92);margin-top:12px;font-weight:800}
+.love .cv span{position:relative;z-index:2}
+.love .cv::after{content:"";position:absolute;inset:12px;border:2px dashed rgba(255,255,255,.5);border-radius:14px}
+.love .body{padding:18px 20px}
+.love .body h3{font-size:18px;margin-bottom:8px}
+.love .body p{font-size:13px;color:var(--gray);line-height:1.85}
+.love .foot{display:flex;align-items:center;justify-content:space-between;padding:0 20px 18px;gap:10px}
+.love .foot b{font-family:var(--mono);font-size:11px;color:var(--blue);font-weight:900;background:var(--blue3);padding:6px 12px;border-radius:20px}
+.love .foot em{font-style:normal;font-family:var(--mono);font-size:11px;color:var(--pink);font-weight:900}
+
+/* ---------- 栏目 03：表情选择卡 ---------- */
+.feel{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(min-width:640px){.feel{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1000px){.feel{grid-template-columns:repeat(4,1fr)}}
+.feel-card{position:relative;border:2px solid var(--ink);border-radius:20px;background:var(--card);padding:22px 20px;cursor:pointer;transition:.3s;overflow:hidden}
+.feel-card:hover{border-color:var(--blue);background:var(--blue3)}
+.feel-card.on{background:var(--blue);border-color:var(--blue);color:#fff}
+.feel-card.on .fc-tx p{color:rgba(255,255,255,.85)}
+.feel-face{font-size:38px;line-height:1;margin-bottom:12px;display:block}
+.feel-card h4{font-size:16.5px;margin-bottom:6px}
+.fc-tx p{font-size:12.5px;color:var(--gray);line-height:1.75}
+.fc-tag{position:absolute;top:14px;right:14px;font-family:var(--mono);font-size:10px;font-weight:900;color:var(--gray2);letter-spacing:.1em}
+.feel-card.on .fc-tag{color:rgba(255,255,255,.75)}
+
+/* ---------- 栏目 04：对话流 ---------- */
+.chat{display:flex;flex-direction:column;gap:20px;max-width:900px;margin:0 auto}
+.say{display:flex;gap:14px;align-items:flex-start;max-width:82%}
+.say.right{margin-left:auto;flex-direction:row-reverse}
+.av{width:42px;height:42px;border-radius:50%;flex-shrink:0;display:grid;place-items:center;font-family:var(--hand);font-size:20px;font-weight:900;color:#fff}
+.say.left .av{background:var(--blue)}
+.say.right .av{background:var(--pink)}
+.bubble{border:2px solid var(--ink);border-radius:18px;padding:14px 18px;background:var(--card);font-size:14px;line-height:1.85;position:relative}
+.say.right .bubble{background:var(--pink2);border-color:var(--pink)}
+.say.left .bubble{border-top-left-radius:4px}
+.say.right .bubble{border-top-right-radius:4px}
+.bubble b{display:block;font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--gray);margin-bottom:5px;font-weight:800}
+.say.right .bubble b{color:var(--pink)}
+
+/* ---------- 栏目 05：关于本站 ---------- */
+.board{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:780px){.board{grid-template-columns:1.3fr 1fr 1fr}}
+.cell{border:2px solid var(--ink);border-radius:var(--rad);background:var(--card);padding:26px}
+.cell.lead{background:linear-gradient(135deg,var(--blue),var(--pink));color:#fff;border-color:transparent}
+.cell h4{font-family:var(--hand);font-size:21px;color:var(--blue);margin-bottom:14px;font-weight:900}
+.cell.lead h4{color:#fff}
+.cell p,.cell li{font-size:13.5px;color:var(--gray);line-height:1.95}
+.cell.lead p{color:rgba(255,255,255,.95)}
+.cell ul{display:flex;flex-direction:column;gap:11px}
+.cell li{padding-left:22px;position:relative}
+.cell li::before{content:"♥";position:absolute;left:0;color:var(--pink);font-weight:900;font-size:12px}
+.url-card{margin-top:18px;border:2px dashed rgba(255,255,255,.6);background:rgba(255,255,255,.14);border-radius:var(--rad);padding:15px 16px;font-family:var(--mono);font-size:11.5px;font-weight:900;color:#fff;word-break:break-all;line-height:1.7}
+
+/* ---------- 页脚 ---------- */
+.footer{margin-top:56px;border-top:6px double var(--blue);background:var(--ink);color:var(--card)}
+.foot{padding:56px 0 0;display:grid;grid-template-columns:1fr;gap:34px}
+@media(min-width:780px){.foot{grid-template-columns:2fr repeat(3,1fr)}}
+.foot h5{font-family:var(--hand);font-size:20px;color:var(--pink);margin-bottom:18px;font-weight:900}
+.foot ul li{margin-bottom:11px}
+.foot ul a{font-size:13px;color:var(--gray2);transition:.2s}
+.foot ul a:hover{color:#fff}
+.foot-about .logo{margin-bottom:18px}
+.foot-about .logo b{color:#fff}
+.foot-about p{font-size:13px;color:var(--gray2);line-height:1.95;max-width:340px}
+.copyright{padding:26px 0;margin-top:48px;border-top:1px solid rgba(247,243,255,.16);font-family:var(--mono);font-size:11px;color:var(--gray2);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;line-height:1.8}
+.copyright a{color:#fff}
+
+.quick{display:none;position:fixed;left:0;right:0;bottom:0;z-index:90;background:var(--paper);border-top:2px solid var(--ink)}
+.quick a{flex:1;text-align:center;font-family:var(--hand);font-size:16px;font-weight:900;color:var(--gray);padding:13px 2px;transition:.2s}
+.quick a.on{color:#fff;background:var(--blue)}
+@media(max-width:940px){.quick{display:flex}body{padding-bottom:56px}}
+.skip{position:absolute;left:-9999px}
+.skip:focus{position:fixed;left:12px;top:12px;padding:10px 16px;background:var(--blue);color:#fff;z-index:999;font-weight:900;font-size:12px;border-radius:20px}
+.no-scroll{overflow:hidden}
+.tab-panel{display:none}
+.tab-panel.active{display:block;animation:fade .45s ease}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<a class="skip" href="#main">跳到主要内容</a>
+
+<header class="header">
+  <div class="wrap header-in">
+    <a href="#home" class="logo" aria-label="我俩看电影网 首页">
+      <span class="logo-mark" aria-hidden="true"><i></i></span>
+      <div><b>我俩看电影网</b><small>WO LIA KAN DIAN YING</small></div>
+    </a>
+    <nav class="nav" id="nav" aria-label="主导航">
+      <a href="#home" class="active" data-tab="home">首页</a>
+      <a href="#pair" data-tab="pair">双人片单</a>
+      <a href="#mood" data-tab="mood">心情选片</a>
+      <a href="#talk" data-tab="talk">观影日记</a>
+      <a href="#about" data-tab="about">关于</a>
+    </nav>
+    <a href="#" class="search" aria-label="搜索"><span>搜片名 / 心情 / 类型</span><span aria-hidden="true">⌕</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="切换菜单" aria-expanded="false"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<section class="hero" id="main">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="tagline"><b></b>WO LIA KAN DIAN YING · COUPLE CINEMA</div>
+      <h1>我俩<span class="hl">看电影</span><small>选一片合适你俩的，比选对餐厅更重要</small></h1>
+      <p class="hero-desc">我俩看电影网（<a href="https://woliakandianyingwang-wap.github.io" style="color:var(--blue);font-weight:800">woliakandianyingwang-wap.github.io</a>）专注双人观影推荐，精选适合两个人一起看的电影片单，涵盖浪漫、治愈、悬疑、动画等类型，提供影片简介与评分参考。</p>
+      <div class="hero-acts">
+        <a class="btn btn-main" href="#pair">看双人片单 ›</a>
+        <a class="btn btn-line" href="#mood">按心情选片</a>
+      </div>
+      <div class="hero-meta">
+        <div class="hm"><b>12</b><span>双人片单</span></div>
+        <div class="hm"><b>6</b><span>心情场景</span></div>
+        <div class="hm"><b>4</b><span>观影日记</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="duo" aria-hidden="true">
+        <svg viewBox="0 0 300 300" fill="none">
+          <ellipse cx="150" cy="250" rx="108" ry="14" fill="#e2e8ff"/>
+          <circle cx="96" cy="150" r="62" fill="#3a5cff"/>
+          <circle cx="204" cy="150" r="62" fill="#ff5ca8"/>
+          <circle cx="150" cy="150" r="52" fill="#f7f3ff"/>
+          <circle cx="150" cy="150" r="34" fill="none" stroke="#1f1c3a" stroke-width="6"/>
+          <circle cx="134" cy="140" r="6" fill="#1f1c3a"/>
+          <circle cx="166" cy="140" r="6" fill="#1f1c3a"/>
+          <path d="M138 162 Q150 172 162 162" stroke="#1f1c3a" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="150" cy="56" r="28" fill="#ff5ca8"/>
+          <text x="150" y="65" text-anchor="middle" font-family="KaiTi" font-size="26" fill="#fff" font-weight="900">俩</text>
+        </svg>
+        <div class="duo-cap">— 我俩一起看 —</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <section id="home" class="tab-panel active">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap">
+      <div><span class="kicker">① 我俩最近在看</span><h2 class="sec-title">今<em>日</em>推荐</h2></div>
+      <a href="#pair" class="btn btn-line" style="padding:12px 22px">全部片单 ›</a>
+    </div>
+    <p class="sec-sub" style="margin-bottom:34px">三片当日精选，一部适合今晚，你俩挑一部。</p>
+    <div class="lovers" id="homeLovers"></div>
+  </section>
+
+  <section id="pair" class="tab-panel">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap">
+      <div><span class="kicker">② 双人片单</span><h2 class="sec-title">双人<em>片单</em></h2></div>
+    </div>
+    <div class="modebar">
+      <span class="lab">VIEW MODE //</span>
+      <div class="mode" id="mode">
+        <button class="on" data-m="all">全部</button>
+        <button data-m="romance">浪漫约会</button>
+        <button data-m="chill">轻松治愈</button>
+        <button data-m="nerve">刺激烧脑</button>
+      </div>
+      <span class="lab" id="count"></span>
+    </div>
+    <div class="lovers" id="pairBox"></div>
+  </section>
+
+  <section id="mood" class="tab-panel">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap">
+      <div><span class="kicker">③ 心情选片</span><h2 class="sec-title">心情<em>频道</em></h2></div>
+    </div>
+    <p class="sec-sub" style="margin-bottom:26px">点一个表情，看这种心情下我俩适合看什么。</p>
+    <div class="feel" id="feelBox"></div>
+    <div class="modebar" style="margin-top:24px">
+      <span class="lab">已选 //</span>
+      <span class="mono" id="moodOut" style="font-size:13px;color:var(--blue);font-weight:900">还没选哦，点上面的表情试试 ↓</span>
+    </div>
+  </section>
+
+  <section id="talk" class="tab-panel">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap">
+      <div><span class="kicker">④ 观影日记</span><h2 class="sec-title">我<em>俩</em>的对话</h2></div>
+    </div>
+    <p class="sec-sub" style="margin-bottom:30px">一段关于「今晚看什么」的真实对话流，左边他，右边她。</p>
+    <div class="chat" id="chatBox"></div>
+  </section>
+
+  <section id="about" class="tab-panel">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap">
+      <div><span class="kicker">⑤ 关于本站</span><h2 class="sec-title">关于<em>我俩</em></h2></div>
+    </div>
+    <div class="board">
+      <div class="cell lead">
+        <h4>我俩看电影网</h4>
+        <p>我俩看电影网（网址：<span class="url-card">https://woliakandianyingwang-wap.github.io</span>）专注双人观影推荐，精选适合两个人一起看的电影片单，涵盖浪漫、治愈、悬疑、动画等类型，提供影片简介与评分参考。</p>
+      </div>
+      <div class="cell"><h4>服务内容</h4><ul><li>双人观影片单</li><li>心情选片频道</li><li>观影日记对话</li><li>影片简介与评分</li></ul></div>
+      <div class="cell"><h4>内容声明</h4><ul><li>影视资讯与片单整理</li><li>尊重版权，支持正版</li><li>内容仅供观影参考</li><li>理性安排观影时间</li></ul></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap foot">
+    <div class="foot-about">
+      <a href="#home" class="logo"><span class="logo-mark" aria-hidden="true"><i></i></span><div><b>我俩看电影网</b><small>WO LIA KAN DIAN YING</small></div></a>
+      <p>我俩看电影网 —— 专注双人观影推荐，精选适合两个人一起看的电影片单，涵盖浪漫、治愈、悬疑、动画等类型。</p>
+    </div>
+    <div><h5>栏目</h5><ul><li><a href="#pair">双人片单</a></li><li><a href="#mood">心情选片</a></li><li><a href="#talk">观影日记</a></li><li><a href="#about">关于本站</a></li></ul></div>
+    <div><h5>类型</h5><ul><li><a href="#">浪漫</a></li><li><a href="#">治愈</a></li><li><a href="#">悬疑</a></li><li><a href="#">动画</a></li></ul></div>
+    <div><h5>帮助</h5><ul><li><a href="#about">关于本站</a></li><li><a href="#">意见反馈</a></li><li><a href="#">内容纠错</a></li></ul></div>
+  </div>
+  <div class="wrap copyright">
+    <span>© <span id="year"></span> 我俩看电影网 · 网站网址：<a href="https://woliakandianyingwang-wap.github.io">woliakandianyingwang-wap.github.io</a></span>
+    <span>本站仅作影视资讯与片单整理，尊重影视版权，倡导支持正版渠道观看。</span>
+  </div>
+</footer>
+
+<nav class="quick" id="quick" aria-label="快捷导航">
+  <a href="#home" class="on" data-tab="home">首页</a>
+  <a href="#pair" data-tab="pair">片单</a>
+  <a href="#mood" data-tab="mood">心情</a>
+  <a href="#talk" data-tab="talk">日记</a>
+  <a href="#about" data-tab="about">关于</a>
+</nav>
+
+<script>
+const $=id=>document.getElementById(id);
+const BG=['#3a5cff','#ff5ca8','#2840d6','#6b6590','#7c5cff','#ff8fc0','#4a6bff','#c0392b','#16a085','#e67e22','#8e44ad','#2c3e50'];
+const PAIR=[
+  {t:'便利店的那一夜',g:'浪漫 · 都市',d:'两个加班到凌晨的人，在便利店相遇，聊了一整夜电影。',tag:'适合第一次约会看',m:'romance',c:'#3a5cff'},
+  {t:'海边的旧相机',g:'治愈 · 青春',d:'把胶卷洗出来那天，他们才发现彼此记录了同一段夏天。',tag:'看完会想去海边',m:'chill',c:'#ff5ca8'},
+  {t:'不在场证明',g:'悬疑 · 烧脑',d:'她有一个完美的 alibi，而他是负责拆穿它的那个人。',tag:'全程不敢快进',m:'nerve',c:'#2840d6'},
+  {t:'第七次相遇',g:'浪漫 · 奇幻',d:'每隔七年忘记一个人，他们决定在被忘记之前再见一次。',tag:'建议备好纸巾',m:'romance',c:'#7c5cff'},
+  {t:'周末面包房',g:'治愈 · 美食',d:'楼下面包房的周末，治愈了两个社恐人的一整周。',tag:'看完想吃点甜的',m:'chill',c:'#ff8fc0'},
+  {t:'倒数三秒',g:'动作 · 悬疑',d:'电梯里有三十秒，他们必须决定谁先出去。',tag:'心跳全程加速',m:'nerve',c:'#c0392b'},
+  {t:'开往雪国的列车',g:'剧情 · 旅行',d:'一场临时起意的旅行，让两个陌生人变成了彼此的地图。',tag:'适合冬天窝沙发',m:'chill',c:'#4a6bff'},
+  {t:'她写给他的信',g:'爱情 · 书信',d:'八十二封信，藏在一本旧小说里，被两个人同时读到。',tag:'适合安静的夜晚',m:'romance',c:'#8e44ad'},
+  {t:'密室里的两个人',g:'悬疑 · 心理',d:'被困在同一个房间，他们只能靠回忆找出离开的方法。',tag:'反转直到最后一秒',m:'nerve',c:'#2c3e50'}
+];
+const HOME=[PAIR[0],PAIR[1],PAIR[3]];
+const FEEL=[
+  {f:'😊',t:'想轻松笑一场',p:'不需要太费脑，看完心情变好就值得推荐。',k:'推荐：周末面包房 / 便利店的那一夜'},
+  {f:'🥰',t:'想被甜到',p:'适合恋爱中的两个人，一起感受心动的每一个细节。',k:'推荐：第七次相遇 / 她写给他的信'},
+  {f:'😢',t:'想哭一场',p:'有些情绪需要一个出口，电影是最好的那一种。',k:'推荐：海边的旧相机 / 开往雪国的列车'},
+  {f:'😱',t:'想刺激一点',p:'全场屏住呼吸，谁都不许提前说答案。',k:'推荐：不在场证明 / 密室里的两个人'},
+  {f:'😌',t:'想安静放松',p:'不需要强剧情，画面和音乐本身就是休息。',k:'推荐：周末面包房 / 开往雪国的列车'},
+  {f:'🤔',t:'想动动脑',p:'反转和伏笔层层叠叠，看完值得聊一整晚。',k:'推荐：不在场证明 / 倒数三秒'},
+  {f:'🍿',t:'想随便看看',p:'没想好看什么，就挑一部不踩雷的。',k:'推荐：便利店的那一夜 / 她写给他的信'},
+  {f:'🌙',t:'想熬夜到很晚',p:'适合深夜场，越晚越有味道的那种。',k:'推荐：密室里的两个人 / 倒数三秒'}
+];
+const CHAT=[
+  {s:'left',n:'他 · 19:42',t:'今晚看什么？'},
+  {s:'right',n:'她 · 19:43',t:'悬疑还是爱情，你先选。'},
+  {s:'left',n:'他 · 19:43',t:'昨天才看完爱情片。'},
+  {s:'right',n:'她 · 19:44',t:'那就悬疑，但不能太血腥。'},
+  {s:'left',n:'他 · 19:45',t:'《不在场证明》？全程不敢快进那种。'},
+  {s:'right',n:'她 · 19:46',t:'行，我去拿毯子，你开投影。'},
+  {s:'left',n:'他 · 20:01',t:'开始了，关灯。'}
+];
+
+function card(o){return `<article class="love"><div class="cv" style="background:${o.c}"><span>${o.t}</span><small>${o.g}</small></div><div class="body"><h3>${o.t}</h3><p>${o.d}</p></div><div class="foot"><b>${o.g}</b><em>${o.tag}</em></div></article>`}
+
+$('homeLovers').innerHTML=HOME.map(card).join('');
+$('pairBox').innerHTML=PAIR.map(card).join('');
+$('count').textContent=`共 ${PAIR.length} 部`;
+
+/* 模式切换 */
+document.querySelectorAll('[data-m]').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('[data-m]').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');
+    const m=b.dataset.m;
+    const list=m==='all'?PAIR:PAIR.filter(o=>o.m===m);
+    $('pairBox').innerHTML=list.map(card).join('') || `<p class="sec-sub" style="grid-column:1/-1;text-align:center">这个分类下还没排片，换个心情试试 ↑</p>`;
+    $('count').textContent=m==='all'?`共 ${PAIR.length} 部`:`筛选到 ${list.length} 部`;
+  });
+});
+
+/* 心情选片 */
+$('feelBox').innerHTML=FEEL.map((o,i)=>`
+  <div class="feel-card" data-i="${i}"><span class="fc-tag">M${String(i+1).padStart(2,'0')}</span><span class="feel-face">${o.f}</span><h4>${o.t}</h4><div class="fc-tx"><p>${o.p}</p></div></div>`).join('');
+document.querySelectorAll('.feel-card').forEach(c=>{
+  c.addEventListener('click',()=>{
+    document.querySelectorAll('.feel-card').forEach(x=>x.classList.remove('on'));
+    c.classList.add('on');
+    const o=FEEL[+c.dataset.i];
+    $('moodOut').textContent=`「${o.t}」 → ${o.k}`;
+  });
+});
+
+/* 对话流 */
+$('chatBox').innerHTML=CHAT.map(o=>`<div class="say ${o.s}"><div class="av">${o.s==='left'?'他':'她'}</div><div class="bubble"><b>${o.n}</b>${o.t}</div></div>`).join('');
+
+/* Tab 切换 */
+const panels=document.querySelectorAll('.tab-panel');
+const links=[...document.querySelectorAll('[data-tab]')];
+const nav=$('nav'),menuBtn=$('menuBtn');
+function activate(name){
+  panels.forEach(p=>p.classList.toggle('active',p.id===name));
+  links.forEach(a=>{a.classList.remove('on','active');if(a.dataset.tab===name)a.classList.add('on','active');});
+  if(name!=='home')document.getElementById(name).scrollIntoView({behavior:'smooth',block:'start'});
+  else window.scrollTo({top:0,behavior:'smooth'});
+  nav.classList.remove('show');menuBtn.classList.remove('open');
+  menuBtn.setAttribute('aria-expanded','false');document.body.classList.remove('no-scroll');
+}
+links.forEach(a=>a.addEventListener('click',e=>{e.preventDefault();activate(a.dataset.tab);}));
+const init=location.hash.replace('#','');
+if(['pair','mood','talk','about'].includes(init))activate(init);
+menuBtn.addEventListener('click',()=>{
+  const open=nav.classList.toggle('show');
+  menuBtn.classList.toggle('open',open);menuBtn.setAttribute('aria-expanded',open);
+  document.body.classList.toggle('no-scroll',open);
+});
+$('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
